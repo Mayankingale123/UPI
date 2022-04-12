@@ -14,7 +14,7 @@ var con = mysql.createConnection({
   database: "upi"
 });
 
-app.use(express.static('Front_end'));
+app.use(express.static('Images'));
 app.use(express.static('views'));
 //by default pass index.js
 app.use(bodyParser());
